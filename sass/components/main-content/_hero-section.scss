@@ -26,28 +26,3 @@
   text-transform: uppercase;
   width: 696px;
 }
-.hero-button {
-  width: 200px;
-  height: 50px;
-  border: 0;
-  margin-top: 0;
-  margin-bottom: 200px;
-  padding: 10px, 32px;
-  border-radius: 4px;
-  background-color: $accentColor;
-  color: $bodyColor;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  transition: $cubic $time color, $cubic $time background-color,
-    $cubic $time drop-shadow;
-  &:hover,
-  &:focus {
-    background-color: $altAccent;
-    color: $bodyColor;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  }
-}
